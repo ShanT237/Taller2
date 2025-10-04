@@ -1,4 +1,4 @@
-#
+# Contar los pares de una lista
 
 defmodule Lista do
   def main do

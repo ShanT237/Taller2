@@ -1,3 +1,5 @@
+# Suma Objetivo
+
 defmodule SumaObjetivo do
   def main do
     lista = [3, 34, 4, 12, 5, 2]
@@ -16,7 +18,6 @@ defmodule SumaObjetivo do
   def encontrar_suma([], _), do: :error
 
   def encontrar_suma([h | t], objetivo) do
-
     case encontrar_suma(t, objetivo - h) do
       {:ok, combinacion} -> {:ok, [h | combinacion]}
       :error -> encontrar_suma(t, objetivo)

@@ -1,4 +1,4 @@
-#Sumar los elementos de una matrix
+# Sumar los elementos de una matrix
 defmodule Imprimir do
   def main do
     matrix = [[1, 7, 21], [1, 3, 5], [27, 47, 19]]
